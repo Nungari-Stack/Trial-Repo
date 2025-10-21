@@ -1,0 +1,28 @@
+{
+  "name": "week-2-assignment",
+  "version": "1.0.0",
+  "description": "Express.js REST API Assignment for CRUD Products",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "products",
+    "crud"
+  ],
+  "author": "Nungari Maina",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
